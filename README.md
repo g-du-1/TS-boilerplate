@@ -1,6 +1,17 @@
 # TS-boilerplate
 
-Start from a VSCode WSL window.
+## Stack
+
+- Docker
+- Typescript
+- Node (Express)
+- Postgres
+- Prettier
+- Remote debugging configured, see below
+
+## Starting the environment
+
+Preferably start from a VSCode WSL window on Windows.
 
 1. `npm install`
 2. `docker-compose up -d`
