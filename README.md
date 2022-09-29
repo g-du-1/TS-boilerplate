@@ -4,6 +4,8 @@ Start from a WSL window.
 
 1. `npm install`
 2. `docker-compose up -d`
+3. Enter the container
+4. `su node && npm run dev`
 
 ## Debugging
 
