@@ -8,4 +8,5 @@ COPY ./src ./src
 
 RUN npm install
 
-CMD npm run dev
+# Disable this so we can start it from inside the container via the debugger
+# CMD npm run dev
