@@ -1,0 +1,36 @@
+{
+  "name": "ts-boilerplate",
+  "version": "1.0.0",
+  "description": "TS Boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "dev": "nodemon -L -e ts --exec \"npm run build && npm start\"",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g-du-1/TS-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g-du-1/TS-boilerplate/issues"
+  },
+  "homepage": "https://github.com/g-du-1/TS-boilerplate#readme",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.14",
+    "@types/nodemon": "^1.19.2",
+    "@types/pg": "^8.6.5",
+    "@types/typescript": "^2.0.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.8.0"
+  }
+}
