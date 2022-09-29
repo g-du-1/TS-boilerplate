@@ -1,6 +1,9 @@
 # TS-boilerplate
 
-`docker-compose up -d`
+Start from a WSL window.
+
+1. `npm install`
+2. `docker-compose up -d`
 
 ## Debugging
 
