@@ -1,4 +1,3 @@
 # TS-boilerplate
 
-1. npm install
-2. npm run dev
+`docker-compose up`
