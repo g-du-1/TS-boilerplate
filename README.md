@@ -1,5 +1,8 @@
 # TS-boilerplate
 
+## TODO
+- Fix debugger
+
 ## Stack
 
 - Docker
@@ -16,9 +19,9 @@ Preferably start from a VSCode WSL window on Windows.
 1. Add .env as in example
 2. `npm install`
 3. `docker-compose up -d`
-4. `docker exec -it api bash`
+4. `docker exec -it app bash`
 5. `su node`
-6. `npm run dev`
+6. `npm run dev` (from server folder)
 
 ## Debugging
 
