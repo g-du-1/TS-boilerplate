@@ -3,14 +3,14 @@ import dotenv from "dotenv";
 import { Pool } from "pg";
 
 const app = express();
-dotenv.config(); // Reads .env file and makes it accessible via process.env
+dotenv.config({ path: "../.env" }); // Reads .env file and makes it accessible via process.env
 
 app.get("/test", (req: Request, res: Response, next: NextFunction) => {
   res.send("hi");
 });
 
-app.listen(process.env.PORT, () => {
-  console.log(`Server is running at ${process.env.PORT}`);
+app.listen(process.env.SERVER_PORT, () => {
+  console.log(`Server is running at ${process.env.SERVER_PORT}`);
 });
 
 const pool = new Pool({
