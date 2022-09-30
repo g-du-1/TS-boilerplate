@@ -20,8 +20,16 @@ Preferably start from a VSCode WSL window on Windows.
 2. `npm install`
 3. `docker-compose up -d`
 4. `docker exec -it app bash`
-5. `su node`
-6. `npm run dev` (from server folder)
+
+## Start the server
+1. `su node`
+2. `cd server`
+3. `npm run dev`
+
+## Start the client
+1. `su node`
+2. `cd client`
+3. `npm run start`
 
 ## Debugging
 
