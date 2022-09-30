@@ -1,6 +1,7 @@
 # TS-boilerplate
 
 ## TODO
+
 - Fix debugger
 
 ## Stack
@@ -18,17 +19,18 @@ Preferably start from a VSCode WSL window on Windows.
 
 1. Add .env as in example
 2. `docker-compose up -d`
-3. `docker exec -it app bash`
+3. Develop from inside the container via the Remote Development extension (alternatively: `docker exec -it app bash`)
+4. `su node`
 
 ## Start the server
-1. `su node`
-2. Change to server folder
-3. `npm run dev`
+
+1. Change to the server folder
+2. `npm run dev`
 
 ## Start the client
-1. `su node`
-2. Change to client folder
-3. `npm run start`
+
+1. Change to the client folder
+2. `npm run start`
 
 ## Debugging
 
