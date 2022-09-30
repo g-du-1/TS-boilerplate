@@ -17,18 +17,17 @@
 Preferably start from a VSCode WSL window on Windows.
 
 1. Add .env as in example
-2. `npm install`
-3. `docker-compose up -d`
-4. `docker exec -it app bash`
+2. `docker-compose up -d`
+3. `docker exec -it app bash`
 
 ## Start the server
 1. `su node`
-2. `cd server`
+2. Change to server folder
 3. `npm run dev`
 
 ## Start the client
 1. `su node`
-2. `cd client`
+2. Change to client folder
 3. `npm run start`
 
 ## Debugging
