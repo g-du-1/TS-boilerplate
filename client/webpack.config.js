@@ -2,6 +2,7 @@ const prod = process.env.NODE_ENV === "production";
 
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const ESLintPlugin = require("eslint-webpack-plugin");
 
 module.exports = {
   mode: prod ? "production" : "development",
@@ -49,5 +50,8 @@ module.exports = {
       template: "index.html",
     }),
     new MiniCssExtractPlugin(),
+    new ESLintPlugin({
+      extensions: ["js", "jsx", "ts", "tsx"],
+    }),
   ],
 };
