@@ -16,6 +16,8 @@ COPY ./server/src ./server/src
 
 RUN npm install
 
-USER node
+# Disable this so we can start it manually from the container
 
-CMD npm run dev:all
+# USER node
+
+# CMD npm run dev:all
