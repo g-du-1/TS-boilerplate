@@ -9,7 +9,12 @@
       "request": "attach",
       "name": "Attach to debugger in container",
       "port": 9229,
-      "skipFiles": ["<node_internals>/**", "node_modules/**"]
+      "skipFiles": ["<node_internals>/**", "node_modules/**"],
+      "restart": true,
+      "sourceMaps": true,
+      "address": "localhost",
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "/usr/src/app"
     }
   ]
 }
