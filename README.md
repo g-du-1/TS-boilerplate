@@ -6,7 +6,9 @@
 - Typescript
 - Node (Express)
 - Postgres
-- React, Webpack
+- Webpack
+- React
+- Sass
 - Prettier
 - Remote debugging configured
 
