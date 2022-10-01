@@ -1,9 +1,5 @@
 # TS-boilerplate
 
-## TODO
-
-- Fix debugger
-
 ## Stack
 
 - Docker
