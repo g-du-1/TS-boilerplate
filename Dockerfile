@@ -16,8 +16,6 @@ COPY ./server/src ./server/src
 
 RUN npm install
 
-# Disable these because we'll use the Remote Development extension
+USER node
 
-# USER node
-
-# CMD npm run dev:all
+CMD npm run dev:all
