@@ -22,3 +22,7 @@ Preferably start from a VSCode WSL window on Windows.
 1. `docker exec -it --user node app bash`
 2. Change to server directory
 3. `npm run dev:all`
+
+## Removing everything from Docker
+1. `docker-compose down`
+2. ` docker system prune -a && docker volume prune`
