@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node --inspect=0.0.0.0:9229 ./dist/app.js",
     "dev": "nodemon -L -e ts --exec \"npm run lint && npm run build && npm start\"",
-    "dev:all": "concurrently \"npm run dev\" \"cd ../client && npm run start\"",
+    "dev:all": "concurrently \"npm run dev\" \"cd ../client && npm run dev\"",
     "build": "tsc",
     "lint": "eslint . --ext .ts"
   },
