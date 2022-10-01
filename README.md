@@ -19,6 +19,6 @@ Preferably start from a VSCode WSL window on Windows.
 3. Develop from inside the container via the Remote Development extension 
 
 ### Alternatively:
-1. `docker exec -it app bash`
-2. `cd server && su node`
+1. `docker exec -it --user node app bash`
+2. Change to server directory
 3. `npm run dev:all`
