@@ -1,8 +1,0 @@
-{
-  "type": "node",
-  "name": "Attach to debugger in container",
-  "request": "attach",
-  "name": "Attach",
-  "port": 9229,
-  "skipFiles": ["<node_internals>/**", "node_modules/**"]
-}
